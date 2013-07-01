@@ -20,4 +20,9 @@
   	<param-value>true</param-value>
   </context-param>
   
+  <context-param>
+  	<param-name>resteasy.jndi.resources</param-name>
+  	<param-value>ejb:fj31-loja-ear/fj31-loja-ejb3/GerenciadorLojaBean!br.com.caelum.loja.session.GerenciadorLoja</param-value>
+  </context-param>
+
 </web-app>
